@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mach-o/libi386.dylib</file>
+        <file>mach-o/libx86_64.dylib</file>
+        <file>mach-o/libintel.dylib</file>
+        <file>mach-o/libppc7400.dylib</file>
+        <file>mach-o/libppc64.dylib</file>
+        <file>mach-o/libppc.dylib</file>
+        <file>mach-o/libuniversal.dylib</file>
+        <file>mach-o/libfulluniversal.dylib</file>
+        <file>mach-o/i386.macho</file>
+        <file>mach-o/x86_64.macho</file>
+        <file>mach-o/intel.macho</file>
+        <file>mach-o/ppc7400.macho</file>
+        <file>mach-o/ppc64.macho</file>
+        <file>mach-o/ppc.macho</file>
+        <file>mach-o/universal.macho</file>
+        <file>mach-o/fulluniversal.macho</file>
+    </qresource>
+</RCC>
