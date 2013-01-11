@@ -6,11 +6,13 @@ CONFIG += console
 CONFIG -= app_bundle
 TEMPLATE = app
 
+HEADERS += mach-o.h
 SOURCES += main.cpp test/lib.c
 RESOURCES += test/binaries.qrc
 
 OTHER_FILES += \
     .gitignore \
+    README.md \
     test/app.c \
     test/lib.c \
     test/mach-o/Makefile \
@@ -24,6 +26,3 @@ contains(CONFIG, ppc) {
     # CONFIG -= x86 doesn't work - QTBUG-6150 related?
     QMAKE_POST_LINK += lipo -remove i386 $$OUT_PWD/$$TARGET -output $$OUT_PWD/$$TARGET
 }
-
-HEADERS += \
-    mach-o.h
