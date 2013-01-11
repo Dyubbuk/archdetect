@@ -8,6 +8,7 @@
         <file>mach-o/libppc.dylib</file>
         <file>mach-o/libuniversal.dylib</file>
         <file>mach-o/libfulluniversal.dylib</file>
+        <file>mach-o/arm.macho</file>
         <file>mach-o/i386.macho</file>
         <file>mach-o/x86_64.macho</file>
         <file>mach-o/intel.macho</file>

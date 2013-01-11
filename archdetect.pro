@@ -10,6 +10,7 @@ SOURCES += main.cpp test/lib.c
 RESOURCES += test/binaries.qrc
 
 OTHER_FILES += \
+    .gitignore \
     test/app.c \
     test/lib.c \
     test/mach-o/Makefile \

@@ -109,6 +109,8 @@ int main(int argc, char *argv[])
     fileArchMap.insert(":/mach-o/libuniversal.dylib", QStringList() << "i386" << "ppc");
     fileArchMap.insert(":/mach-o/libfulluniversal.dylib", QStringList() << "i386" << "x86_64" << "ppc" << "ppc64");
 
+    fileArchMap.insert(":/mach-o/arm.macho", QStringList() << "arm");
+
     fileArchMap.insert(":/mach-o/i386.macho", QStringList() << "i386");
     fileArchMap.insert(":/mach-o/x86_64.macho", QStringList() << "x86_64");
     fileArchMap.insert(":/mach-o/intel.macho", QStringList() << "i386" << "x86_64");
